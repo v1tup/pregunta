@@ -5,7 +5,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                height: 100vh;
+                height: 500vh;
             }
 
             a {
@@ -13,11 +13,11 @@
             }
 
             .box {
-                font-size: 20px;
+                font-size: 50px;
                 color: white;
-                height: 250px;
-                width: 350px;
-                border-radius: 10px;
+                height: 550px;
+                width: 650px;
+                border-radius: 50px;
                 background: #191919;
                 flex-direction: column;
                 display: flex;
@@ -28,16 +28,16 @@
             .buttons-container {
                 display: flex;
                 justify-content: space-around;
-                height: 50px;
-                width: 150px;
+                height: 100px;
+                width: 200px;
             }
             button {
-                height: 30px;
-                width: 50px;
+                height: 80px;
+                width: 160px;
                 background: white;
-                border-radius: 5px;
+                border-radius: 50px;
                 color: blue;
-                font-weight: 600;
+                font-weight: 800;
             }
         </style>
     </head>
@@ -54,8 +54,8 @@
     </body>
     <script>
         let button = document.getElementById('no');
-        let height = window.innerHeight - 50;
-        let width = window.innerWidth - 50;
+        let height = window.innerHeight - 100;
+        let width = window.innerWidth - 100;
 
         button.addEventListener('mouseover', function () {
             button.style.position = "absolute";
